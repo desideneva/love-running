@@ -56,7 +56,7 @@ h1 {
 nav {
     position: absolut;
     background-color: #ffffff;
-    widght: 100%;
+    width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -86,4 +86,25 @@ main {
 /* Footer */
 footer {
 background-color: orange;
+}
+
+/* Media query: tablets and larger ( 768px ad up) */
+@media screen and (min-width: 768 px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
