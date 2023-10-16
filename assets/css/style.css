@@ -12,13 +12,13 @@ body {
   display: flex;
   flex-direction: column;
   color: #3a3a3a;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -73,7 +73,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
   display: block;
 }
 
@@ -119,12 +119,12 @@ main {
 #hero {
   height: 600px;
   width: 100%;
-  background: url("../images/hero-image.webp") no-repeat center center/cover;
+  background: url('../images/hero-image.webp') no-repeat center center/cover;
   position: relative;
 }
 
 #cover-text {
-  background-color: rgba(241, 109, 107, 0.7);
+  background-color: rgba(241, 109, 107, .7);
   font-size: 130%;
   position: absolute;
   bottom: 30px;
@@ -162,7 +162,7 @@ main {
 }
 
 #circle-cover-bg {
-  background: url("../images/reasons-image.webp") no-repeat top center / cover;
+  background: url('../images/reasons-image.webp') no-repeat top center / cover;
   height: 90vw;
   width: 90vw;
   margin-bottom: 20px;
